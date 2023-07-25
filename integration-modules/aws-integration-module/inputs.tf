@@ -1,6 +1,6 @@
 variable "external_id" {
   type        = string
-  description = "This is the manual entered ExternalID within the appNovi AWS configuration"
+  description = "This is the manually entered ExternalID within the appNovi AWS configuration"
 }
 
 variable "appNovi_arn" {
