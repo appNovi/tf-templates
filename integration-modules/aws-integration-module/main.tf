@@ -7,7 +7,7 @@ resource "aws_iam_role" "app_novi_aws_integration_role" {
       {
         "Effect" : "Allow",
         "Principal" : {
-          "AWS" : local.appNovi_arn
+          "AWS" : var.appNovi_arn
         },
         "Action" : "sts:AssumeRole",
         "Condition" : {
