@@ -6,5 +6,5 @@ variable "external_id" {
 variable "appNovi_arn" {
   type = string
   description = "appNovi AWS root ARN"
-  value = "arn:aws:iam::240613463594:root"
+  default = "arn:aws:iam::240613463594:root"
 }
